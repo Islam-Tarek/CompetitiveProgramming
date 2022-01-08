@@ -48,28 +48,6 @@ int floyd(int c){
 
 }
 
-/*
-
-int getQuery(int c , int from , int to){
-
-    int ans = max(graph[from][to] , EPS);
-    int test = EPS;
-
-    for(int i = 1; i <= c; i++){
-        for(int j = 1; j <= c; j++){
-            if(from != i && j != to){
-                if(graph[from][i] != EPS && graph[j][to] != EPS){
-                   test = max(test , max(graph[from][i], graph[j][to]));
-                }
-            }
-        }
-    }
-
-    return (ans == EPS && test == EPS ? EPS : min(ans , test));
-
-}
-
-*/
 
 
 void Solve(){
